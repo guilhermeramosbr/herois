@@ -1,8 +1,8 @@
 let personagens = []
 const div = document.querySelector('#lista_personagem')
-function salvarProtagonista(event){
+function salvarProtagonista(){
     const dadosPersonagem = []
-    event.preventDefault()
+    
     const form = document.querySelector('form')
     const input = new FormData(form)
     
