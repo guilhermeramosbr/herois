@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CineSenai</title>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -20,7 +20,9 @@
 
     </header>
     <main>
+        <button id="cadastrar" onclick="cadastrar()">cadastrar</button> 
         <form onsubmit="salvarProtagonista()">
+            
             <h2>Cadastro de personagem principal</h2>
             <input type="url" id="foto" placeholder="link url" name="foto">
 
@@ -34,7 +36,7 @@
 
             <input type="text" id="habilidades" placeholder="digite as habilidades do heroi" name="habilidade">
 
-            <button type="submit">enviar</button>
+            <button id="botao_form" type="submit">adicionar personagem</button>
 
 
 
